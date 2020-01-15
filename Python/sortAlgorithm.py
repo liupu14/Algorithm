@@ -23,3 +23,12 @@ class sortAlgorithm():
                     self.L[jj] = temp 
         return self.L 
 
+    def bubbleSort2(self):
+        Num = len(self.L)
+        for ii in range(Numm-1):
+            if self.L[ii] > self.L[ii+1]:
+                Temp = self.L[ii]
+                self.L[ii] = self.L[ii+1]
+                self.L[ii+1] = Temp 
+        return self.L 
+

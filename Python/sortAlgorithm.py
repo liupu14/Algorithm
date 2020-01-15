@@ -13,8 +13,13 @@ class sortAlgorithm():
             result = result + [ii] * item 
         return result 
 
-
-
-    
-
+    def bubbleSort(self):
+        Num = len(self.L)
+        for ii in range(Num-1):
+            foe jj in range(ii+1,Num):
+                if self.L[jj] < self.L[ii]:
+                    temp = self.L[ii]
+                    self.L[ii] = self.L[jj]
+                    self.L[jj] = temp 
+        return self.L 
 

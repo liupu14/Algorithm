@@ -1,6 +1,5 @@
 # _*_ coding:utf-8 _*_
 
-
 def binary_search(Lst, guess):
     low = 0
     high = len(Lst) - 1
@@ -14,3 +13,8 @@ def binary_search(Lst, guess):
         else:
             low = mid + 1
     return None
+
+def naive_search(Lst,guess):
+    for ii,item in enumerate(Lst):
+        if guess == item:
+            return ii 

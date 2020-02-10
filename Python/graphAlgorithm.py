@@ -76,3 +76,4 @@ while node is not None:
     proceesed.append(node) 
     node = find_lowest_cost_nodes(costs)
 
+

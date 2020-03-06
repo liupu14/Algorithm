@@ -9,6 +9,7 @@
 import numpy as np 
 import pandas as pd 
 import matplotlib.pyplot as plt 
+plt.rcParams['font.sans-serif'] = ['SimHei']
 
 def SI_model(Num,infections=1,r=10,beta=0.01,days=200):
     """
